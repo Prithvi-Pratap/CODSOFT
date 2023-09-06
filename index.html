@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCULPT SOCIETY</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <a href="#home"><img src="icon.png" alt="SCULPT SOCIETY"></a>
+        <a href="#about" class="popup">ABOUT US</a><a href="#services" class="popup">SERVICES</a><a href="#"
+            class="popup">MEMBERSHIP</a><a href="#contacts" class="popup">CONTACTS</a><a href="#" class="popup">ARTICLES</a>
+        <div class="user">
+            <a href="#" class="sign">SIGN UP</a>
+            <a href="#" class="sign">SIGN IN</a>
+        </div>
+        <button>Join Now</button>
+        <i class="ri-menu-3-line" onclick="openNav()"></i>
+    </nav>
+    <div class="cursor"></div>
+    <div class="cursorblur"></div>
+    <video autoplay muted loop src="outdoor.mp4"></video>
+    <div class="main">
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#about" onclick="closeNav()">ABOUT US</a>
+                <a href="#services" onclick="closeNav()">SERVICES</a>
+                <a href="#" onclick="closeNav()">MEMBERSHIP</a>
+                <a href="#contacts" onclick="closeNav()">CONTACTS</a>
+                <a href="#" onclick="closeNav()">ARTICLES</a>
+                <a href="#" onclick="closeNav()">SIGN IN/UP</a>
+            </div>
+        </div>
+        <div class="page1" id="home">
+            <h1>Sculpt. Sweat. Succeed.</h1>
+            <p>
+            <h2>WELCOME TO SCULPT SOCIETY!</h2>
+            </p>
+            <p>
+            <h4>Sculpt Society is not just a gym, but a dynamic community where bodies are transformed and connections
+                are forged. We believe in the power of fitness to sculpt not only physical strength but also
+                camaraderie. At Sculpt Society, we offer a diverse range of programs and services designed to help you
+                achieve your fitness goals while fostering a sense of unity and support. Join us in our journey of
+                empowerment, growth, and transformation.</h4>
+            </p>
+        </div>
+        <div class="page2">
+            <div class="scroller">
+                <div class="scroller-in">
+                    <h4>ABOUT US</h4>
+                    <h4>SERVICES</h4>
+                    <h4>MEMBERSHIP</h4>
+                    <h4>CONTACTS</h4>
+                    <h4>ARTICLES</h4>
+                </div>
+                <div class="scroller-in">
+                    <h4>ABOUT US</h4>
+                    <h4>SERVICES</h4>
+                    <h4>MEMBERSHIP</h4>
+                    <h4>CONTACTS</h4>
+                    <h4>ARTICLES</h4>
+                </div>
+            </div>
+            <div class="about-us" id="about">
+                <img src="https://img.freepik.com/free-photo/muscular-sportsman-building-biceps-with-dumbbell_7502-4784.jpg?w=1480&t=st=1693836883~exp=1693837483~hmac=58f29f7e4c1e9aeef612a36df7c778ccd61449c4d5d7994cae1335f531758d42"
+                    alt="">
+                <div class="aboutus-in">
+                    <h3>ABOUT US</h3>
+                    <span id="line"></span>
+                    <p>Welcome to <span>Sculpt Society</span>, where fitness meets innovation. We are more than just a
+                        gym; we're your gateway to a healthier, happier, and more vibrant life.</p>
+                    <h3>OUR VISION</h3>
+                    <span id="line"></span>
+                    <P>
+                        At <span>Sculpt Society</span>, our vision is to revolutionize the way you experience fitness.
+                        We believe that exercise should be inspiring, transformative, and enjoyable. With this in mind,
+                        we've meticulously designed our gym to provide you with an exceptional fitness journey.
+                    </P>
+                    <h3 id="services">OUR FACILITY</h3>
+                    <span id="line"></span>
+                    <p>
+                        Spread across two spacious floors, <span>Sculpt Society</span> offers a comprehensive fitness
+                        experience tailored to your needs.
+                    </p>
+                </div>
+                <img src="https://img.freepik.com/free-photo/low-angle-view-unrecognizable-muscular-build-man-preparing-lifting-barbell-health-club_637285-2497.jpg?w=1480&t=st=1693837097~exp=1693837697~hmac=68266f398543ad7e49a646090969b22b11e7c2c4fc18762d772f7c84f73f146c"
+                    alt="">
+            </div>
+            <div class="card-container">
+                <div class="cards" id="card1">
+                    <h2>Calisthenics park</h2>
+                    <div class="overlay">
+                        <h2>Calisthenics park</h2>
+                        <p>The journey begins on the ground floor, where you'll find our state-of-the-art calisthenics
+                            park. This open space is dedicated to bodyweight exercises, functional training, and group
+                            classes. It's a place where you can explore your limits, increase your agility, and develop
+                            strength while enjoying the support and camaraderie of fellow fitness enthusiasts.</p>
+                        <a href="cali.html"><i class="ri-arrow-right-circle-line"></i></a>
+                    </div>
+                </div>
+                <div class="cards" id="card2">
+                    <h2>Weight training</h2>
+                    <div class="overlay">
+                        <h2>Weight training</h2>
+                        <p>Ascend to the first floor, you'll find a well-equipped strength training area. Here, we offer
+                            a variety of free weights, resistance machines, and specialized strength training equipment.
+                            No matter your fitness level or goals, you'll find the tools you need to build muscle,
+                            increase power, and enhance overall strength.</p>
+                        <a href="wightTraining.html"><i class="ri-arrow-right-circle-line"></i></a>
+                    </div>
+                </div>
+                <div class="cards" id="card3">
+                    <h2>Cardiovascular section</h2>
+                    <div class="overlay">
+                        <h2>Cardiovascular section</h2>
+                        <p>The second floor is equipped with a wide range of cardiovascular machines, including
+                            treadmills, stationary bikes, ellipticals, and more. Whether you're looking to burn
+                            calories, improve endurance, or boost your heart health, our cardio section has you covered.
+                            Enjoy your workouts while catching up on your favorite TV shows or overlooking scenic views
+                            through our panoramic windows.</p>
+                        <i class="ri-arrow-right-circle-line"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="dots">
+                <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg" alt="">
+                <h3>Join us, where fitness becomes a lifestyle, and every sculpted moment is a celebration of your
+                    strength.</h3>
+                <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg" alt="">
+            </div>
+        </div>
+        <div class="page3">
+            <img src="left quote.png" alt="" id="comma1">
+            <p>Life is a canvas, and every workout is a brushstroke of strength and determination. At <span>Sculpt
+                    Society</span>, we believe in crafting not only sculpted bodies but also resilient minds and vibrant
+                lives. Join us in this artistic pursuit of health and vitality. Together, we'll paint a masterpiece of
+                well-being.</p>
+            <img src="right quote.png" alt="" id="comma2">
+        </div>
+        <div class="page4">
+            <img src="cups@2x.png" alt="">
+        </div>
+        <div class="page5">
+            <h2>WHAT ARE YOU WAITING FOR?</h2>
+            <div class="plans">
+                <h2>WORKOUT PLANS</h2>
+                <img src="https://img.freepik.com/free-photo/top-view-clipboard-yellow-background_23-2148259148.jpg?w=1480&t=st=1693856418~exp=1693857018~hmac=4a167fbe3dd2eb47252a8f22a08c3f9233dc219fc364fa6195b0b9123fbe5ca8"
+                    alt="">
+            </div>
+            <div class="plans">
+                <h2>DIET PLANS</h2>
+                <img src="https://img.freepik.com/free-photo/top-view-arrangement-with-diet-planning-notepad_23-2149099886.jpg?w=1480&t=st=1693856476~exp=1693857076~hmac=a5af50fe6382d777ab6f7fda8bbea07d6a51c38431552b029ed3b0abc9a2b199"
+                    alt="">
+            </div>
+            <div class="plans">
+                <h2>YOGA ROUTINE</h2>
+                <img src="https://img.freepik.com/free-photo/young-man-doing-yoga-poses-collage_23-2148234190.jpg?w=1060&t=st=1693856575~exp=1693857175~hmac=920240acefefbad4dd286bd141ecb36dc86475ed4949eaeab0e5a906efde9938"
+                    alt="">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-in">
+                <div class="subelem">
+                    <a href="#home"><img src="icon.png" alt=""></a>
+                </div>
+                <div class="subelem">
+                    <h3><a href="cali.html">CALISTHENICS PARK</a></h3>
+                    <h3><a href="wightTraining.html">WEIGHT TRAINING</a></h3>
+                    <h3><a href="#">CARDIOVASCULAR SECTION</a></h3>
+                </div>
+                <div class="subelem">
+                    <h3><a href="">WORKOUT PLANS</a></h3>
+                    <h3><a href="">DIET PLAN</a></h3>
+                    <h3><a href="">YOGA ROUTINE</a></h3>
+                </div>
+                <div class="subelem" id="contacts">
+                    <p>35,3rd cross street,Chennai</p>
+                    <p><a href="tel:7667025535"><i class="ri-phone-fill"> +917667025525, </i></a><a href="#"><i
+                                class="ri-instagram-fill"> </i></a><a
+                            href="https://www.linkedin.com/in/prithvi-pratap-9a47b6221"><i
+                                class="ri-linkedin-box-fill"></i></a></p>
+                    <p><a href="mailto:pratapprithvi768@gmail.com"><i class="ri-mail-send-fill">
+                                pratapprithvi768@gmail.com</i></a></p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2023 Sculpt Society Ltd. All rights reserved.</p>
+                <p>Made with Love 🖤 by <a href="https://www.linkedin.com/in/prithvi-pratap-9a47b6221"
+                        style="text-decoration: none;">Prithvi Pratap</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
