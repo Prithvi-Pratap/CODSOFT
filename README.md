@@ -42,7 +42,8 @@ To run this website locally:
 For any questions or inquiries, please contact pratapprithvi768@gmail.com
 Linkedin:www.linkedin.com/in/prithvi-pratap-9a47b6221
 
-**Note**:Still there are few breakpoints over which the website layout may seems to struggle.
+**Note**:Still there are few breakpoints over which the website layout may seems to struggle.This is particularly a fronted project so don't expect backend functionalities.
+
 
 ---
 
